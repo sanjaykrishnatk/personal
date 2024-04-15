@@ -84,7 +84,7 @@
             <div class="col-md-4 col-sm-12 d-flex justify-content-center">
                 <div class="card red-card" style="width: 18rem;">
                     <div class="card-body ms-3 pe-3 pt-5 pb-5">
-                        <i class="fa-solid fa-code fa-3x pb-3 about-logos text-light"></i>
+                        <i class="fa-solid fa-laptop fa-3x pb-3 about-logos text-light"></i>
                       <h5 class="card-title pb-2">TECH ENTHUSIAST</h5>
                       <p class="card-text pb-2 about-txt">Passionate about technology, crafting seamless solutions.</p>
                       <a href="#" class="card-link about-link text-light">KNOW MORE<span><i class="fa-solid fa-right-long about-logos ps-2 text-light"></i></span></a>
@@ -192,7 +192,7 @@
                 <p class="text-light contact-text-sub">Get in touch to discuss further.</p>
             </div>
             <div class="col-md-4 d-flex justify-content-center align-items-center">
-                <button type="button" class="btn text-light rounded-0 intro-btn">CONTACT</button>
+                <button type="button" class="btn text-light rounded-0 intro-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">CONTACT</button>
             </div>
         </div>
     </div>
@@ -205,6 +205,38 @@
         <li class="footer-link-item"><a href="https://www.instagram.com/sanjay.fs?igsh=Z2hmbG8zZzA3Mnht" target="_blank"><i class="fab fa-instagram fa-2x footer-icons"></i> </a></li>
     </ul>
 </div>
-
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Get in touch</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Mobile Number</label>
+                  <input type="text" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Stay updated! Subscribe for my latest work.</label>
+                </div>
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-danger">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
 </body>
 </html>
