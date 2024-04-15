@@ -9,6 +9,10 @@ body{
     --red:#c71a26;
     --darkRed:#a92b34;
 }
+.row{
+    margin: 0;
+    padding: 0;
+}
 ::-webkit-scrollbar {
     display: none;
 }
@@ -138,9 +142,10 @@ body{
 }
 .project-card{
     background-color: #343434;
+    padding-bottom: 20px;
 }
 .project-text-main{
-    font-size: 20px;
+    font-size: 15px;
     letter-spacing: 1px;
     font-weight: 600;
 }
@@ -167,6 +172,70 @@ body{
     background-color: #343434;    
 }
 .footer-icons{
-    width: 70px;
+    /* width: 70px; */
     color: #181818;
+}
+.project-desc{
+    padding-left: 20px;
+}
+@media(max-width:768px){
+    .portfolio-img{
+        width: 250px;
+        padding-top: 10px;
+    }
+    .portfolio-text{
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+    .intro-btn{
+        margin-bottom: 50px;
+    }
+    .grey-card{
+        margin-bottom: 20px;
+    }
+    .red-card{
+        margin-bottom: 20px;
+    }
+    .technologies{
+        margin-top:1.5rem !important;
+        padding: 0 !important;
+    }
+    .projects{
+        padding: 0 !important;
+    }
+    .project-images{
+        margin-top: 0px !important;
+    }
+    .project-card{
+        margin-bottom: 25px;
+        padding-bottom: 20px;
+    }
+    .project-desc{
+        padding-left: 20px;
+        font-size: 5px !important;
+    }
+    .project-text-main{
+        margin-top: 0 !important;
+    }
+    .footer-link-item{
+        margin: 20px;
+    }
+} 
+.footer-icons:hover{
+    color: wheat;
+}
+.footer-links-list{
+list-style: none;
+}
+.footer-link-item{
+    margin-left: 20px;
+}
+.view-all-btn{
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: var(--red);
+}
+html{
+    scroll-behavior: smooth;
 }

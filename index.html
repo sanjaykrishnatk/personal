@@ -34,13 +34,13 @@
                     <a class="nav-link active me-5 text-light navbar-txt" aria-current="page" href="#">HOME</a>
                   </li>  
                   <li class="nav-item">
-                    <a class="nav-link me-5 text-light navbar-txt" aria-current="page" href="#">ABOUT</a>
+                    <a class="nav-link me-5 text-light navbar-txt" aria-current="page" href="#about">ABOUT</a>
                   </li> 
                   <li class="nav-item">
-                    <a class="nav-link me-5 text-light navbar-txt" aria-current="page" href="#">PROJECT</a>
+                    <a class="nav-link me-5 text-light navbar-txt" aria-current="page" href="#project">PROJECT</a>
                   </li> 
                   <li class="nav-item">
-                    <a class="nav-link me-5 text-light navbar-txt" aria-current="page" href="#">CONTACT</a>
+                    <a class="nav-link me-5 text-light navbar-txt" aria-current="page" href="#contact">CONTACT</a>
                   </li> 
                 </ul>
               </div>
@@ -53,25 +53,25 @@
     <div class="col-md-2"></div>
     <div class="col-md-8">
         <div class="row">
-            <div class="col-md-5">
+            <div class="col-md-5 d-flex justify-content-center">
                 <img src="./media/portfolio-img.png" class="portfolio-img" alt="">
             </div>
             <div class="col-md-7 portfolio-text-section">
                 <h5 class="portfolio-text">Hello I'm Sanjay</h5>
                 <h1 class="text-light portfolio-sub-text">Web Developer</h1>
                 <p class="text-light portfolio-intro">Expert coding and design skills drive my dedication to crafting immersive digital experiences as a web developer. Explore my portfolio to witness the innovative projects I've developed.</p>
-                <button type="button" class="btn text-light rounded-0 intro-btn">ABOUT ME</button>
+                <button type="button" class="btn text-light rounded-0 intro-btn"><a href="#about" class="text-light view-all-btn">ABOUT ME</a></button>
             </div>
          
         </div>
     </div>
     <div class="col-md-2"></div>
    </div>
-   <div class="row about-section pb-5">
+   <div class="row about-section pb-5" id="about">
     <div class="col-md-2"></div>
     <div class="col-md-8">
-        <div class="row about-content">
-            <div class="col-md-4 col-sm-12">
+        <div class="row about-content d-flex justify-content-center align-items-center">
+            <div class="col-md-4 col-sm-12 d-flex justify-content-center">
                 <div class="card grey-card" style="width: 18rem;">
                     <div class="card-body ms-3 pe-3 pt-5 pb-5">
                         <i class="fa-solid fa-users fa-3x pb-3 about-logos"></i>
@@ -81,7 +81,7 @@
                     </div>
                   </div>
             </div>
-            <div class="col-md-4 col-sm-12">
+            <div class="col-md-4 col-sm-12 d-flex justify-content-center">
                 <div class="card red-card" style="width: 18rem;">
                     <div class="card-body ms-3 pe-3 pt-5 pb-5">
                         <i class="fa-solid fa-code fa-3x pb-3 about-logos text-light"></i>
@@ -91,7 +91,7 @@
                     </div>
                   </div>
             </div>
-            <div class="col-md-4 col-sm-12">
+            <div class="col-md-4 col-sm-12 d-flex justify-content-center">
                 <div class="card grey-card" style="width: 18rem;">
                     <div class="card-body ms-3 pe-3 pt-5 pb-5">
                         <i class="fa-solid fa-code fa-3x pb-3 about-logos"></i>
@@ -107,7 +107,7 @@
                <h1 class="about-heading">06</h1>
                <h3 class="text-light">Months Experience</h3> 
             </div>
-            <div class="col-md-4 col-sm-12 text-center mt-5 pt-5 pe-4">
+            <div class="col-md-4 col-sm-12 text-center mt-5 pt-5 pe-4 projects">
                 <div class="row mb-4">
                     <div class="about-card text-center">
                         <h2 class="about-card-header">6+</h2>
@@ -121,7 +121,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12 text-center mt-5 pt-5">
+            <div class="col-md-4 col-sm-12 text-center mt-5 pt-5 technologies">
                 <div class="row mb-4">
                     <div class="about-card text-center">
                         <h2 class="about-card-header">10+</h2>
@@ -139,7 +139,7 @@
     </div>
     <div class="col-md-2"></div>
    </div>
-   <div class="row project-section pb-5">
+   <div class="row project-section pb-5" id="project">
     <div class="col-md-2"></div>
     <div class="col-md-8 pt-5">
         <div class="row">
@@ -148,42 +148,48 @@
                     <h6 class="text-light">Showcasing Premier Projects</h6>
                </div>
             <div class="col-md-4">
-                <button type="button" class="btn text-light rounded-0 intro-btn">VIEW ALL</button>
+                <button type="button" class="btn text-light rounded-0 intro-btn"><a class="text-light view-all-btn" href="https://github.com/sanjaykrishnatk" target="_blank">VIEW ALL</a></button> 
             </div>        
         </div>
-        <div class="row mt-5">
-            <div class="col-md-4 col-sm-12">
-                <div class="card project-card" style="width: 18rem;">
-                    <img src="./media/img1.png" class="card-img-top p-3" alt="img1" width="100%">
-                </div>
-                <h4 class="text-light project-text-main mt-2">Restuarant Website</h4>
-                <a href="#" class="card-link about-link">KNOW MORE<span><i class="fa-solid fa-right-long about-logos ps-2"></i></span></a>
-            </div>
-            <div class="col-md-4 col-sm-12">
+        <div class="row mt-5 project-images">
+            <div class="col-md-4 col-sm-12 d-flex justify-content-center">
                 <div class="card project-card" style="width: 18rem;">
                     <img src="./media/img2.png" class="card-img-top p-3" alt="img1" width="100%">
+                 <div class="project-desc">
+                        <h4 class="text-light project-text-main mt-2">Travel Website</h4>
+                        <a href="https://sanjaykrishnatk.github.io/travel/" target="_blank" class="card-link about-link">VIEW DEMO<span><i class="fa-solid fa-right-long about-logos ps-2"></i></span></a>
+                 </div>
                 </div>
-                <h4 class="text-light project-text-main mt-2">Travel Website</h4>
-                <a href="#" class="card-link about-link">KNOW MORE<span><i class="fa-solid fa-right-long about-logos ps-2"></i></span></a>
             </div>
-            <div class="col-md-4 col-sm-12">
+            <div class="col-md-4 col-sm-12 d-flex justify-content-center">
+                <div class="card project-card" style="width: 18rem;">
+                    <img src="./media/img1.png" class="card-img-top p-3" alt="img1" width="100%">
+                 <div class="project-desc">
+                        <h4 class="text-light project-text-main mt-2">Restuarant Website</h4>
+                        <a href="https://sanjaykrishnatk.github.io/restaurant/" target="_blank" class="card-link about-link">VIEW DEMO<span><i class="fa-solid fa-right-long about-logos ps-2"></i></span></a>
+                 </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 d-flex justify-content-center">
                 <div class="card project-card" style="width: 18rem;">
                     <img src="./media/img3.png" class="card-img-top p-3" alt="img1" width="100%">
+                 <div class="project-desc">
+                        <h4 class="text-light project-text-main mt-2">Furniture Website</h4>
+                        <a href="https://sanjaykrishnatk.github.io/furniture/" target="_blank" class="card-link about-link">VIEW DEMO<span><i class="fa-solid fa-right-long about-logos ps-2"></i></span></a>
+                 </div>
                 </div>
-                <h4 class="text-light project-text-main mt-2">Furniture Website</h4>
-                <a href="#" class="card-link about-link">KNOW MORE<span><i class="fa-solid fa-right-long about-logos ps-2"></i></span></a>
             </div>
         </div>
     </div>
     <div class="col-md-2"></div>
    </div>
-   <div class="row contact-section pb-5">
+   <div class="row contact-section pb-5" id="contact">
     <div class="col-md-2"></div>
     <div class="col-md-8 d-flex justify-content-center align-items-center mt-5 pt-2">
         <div class="row contact-row">
             <div class="col-md-8 p-4">
                 <h2 class="text-light contact-text-main">Ready to Collaborate on Your Next Project</h2>
-                <p class="text-light contact-text-sub">Excited to propel your next project forward.</p>
+                <p class="text-light contact-text-sub">Get in touch to discuss further.</p>
             </div>
             <div class="col-md-4 d-flex justify-content-center align-items-center">
                 <button type="button" class="btn text-light rounded-0 intro-btn">CONTACT</button>
@@ -192,10 +198,12 @@
     </div>
     <div class="col-md-2"></div>
    </div>
-   <div class="row footer-section d-flex justify-content-center align-items-center pt-3 pb-3">
-    <i class="fab fa-github fa-2x footer-icons"></i>
-    <i class="fab fa-linkedin fa-2x footer-icons"></i> 
-    <i class="fab fa-instagram fa-2x footer-icons"></i> 
+   <div class="row footer-section d-flex justify-content-center align-items-center pt-3">
+    <ul class="footer-links-list d-flex justify-content-center">
+        <li class="footer-link-item"><a href="https://github.com/sanjaykrishnatk" target="_blank"><i class="fab fa-github fa-2x footer-icons"></i></a></li>
+        <li class="footer-link-item"><a href="https://www.linkedin.com/in/sktk/" target="_blank"><i class="fab fa-linkedin fa-2x footer-icons"></i></a></li>
+        <li class="footer-link-item"><a href="https://www.instagram.com/sanjay.fs?igsh=Z2hmbG8zZzA3Mnht" target="_blank"><i class="fab fa-instagram fa-2x footer-icons"></i> </a></li>
+    </ul>
 </div>
 
 </body>
