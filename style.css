@@ -119,6 +119,9 @@ body{
     color:#6a6a68;
     font-weight: 500;
 }
+.about-txt-2{
+    color:#b1b1afcc !important;
+}
 .about-heading{
     color: var(--red);
     font-weight: 800;
@@ -129,6 +132,7 @@ body{
     /* box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.638); */
 }
 .about-card-header{
+    padding-top: 10px;
     color: var(--red);
     font-weight: 700;
 }
@@ -219,6 +223,9 @@ body{
     }
     .footer-link-item{
         margin: 20px;
+    }
+    .about-card-header{
+        padding-top: 15px;
     }
 } 
 .footer-icons:hover{
