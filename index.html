@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">   
     <!-- css -->
      <link rel="stylesheet" href="./style.css"> 
+     <!-- animate on scroll -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
    <div class="row mt-3"> 
@@ -71,7 +73,7 @@
     <div class="col-md-2"></div>
     <div class="col-md-8">
         <div class="row about-content d-flex justify-content-center align-items-center">
-            <div class="col-md-4 col-sm-12 d-flex justify-content-center">
+            <div class="col-md-4 col-sm-12 d-flex justify-content-center" data-aos="fade-right" data-aos-duration="500">
                 <div class="card grey-card" style="width: 18rem;">
                     <div class="card-body ms-3 pe-3 pt-5 pb-5">
                         <i class="fa-solid fa-users fa-3x pb-3 about-logos"></i>
@@ -81,7 +83,7 @@
                     </div>
                   </div>
             </div>
-            <div class="col-md-4 col-sm-12 d-flex justify-content-center">
+            <div class="col-md-4 col-sm-12 d-flex justify-content-center" data-aos="fade-down" data-aos-duration="500">
                 <div class="card red-card" style="width: 18rem;">
                     <div class="card-body ms-3 pe-3 pt-5 pb-5">
                         <i class="fa-solid fa-laptop fa-3x pb-3 about-logos text-light"></i>
@@ -91,7 +93,7 @@
                     </div>
                   </div>
             </div>
-            <div class="col-md-4 col-sm-12 d-flex justify-content-center">
+            <div class="col-md-4 col-sm-12 d-flex justify-content-center" data-aos="fade-left" data-aos-duration="500">
                 <div class="card grey-card" style="width: 18rem;">
                     <div class="card-body ms-3 pe-3 pt-5 pb-5">
                         <i class="fa-solid fa-code fa-3x pb-3 about-logos"></i>
@@ -103,11 +105,11 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4 col-sm-12 text-center mt-5 pt-5">
+            <div class="col-md-4 col-sm-12 text-center mt-5 pt-5" data-aos="zoom-out-up" data-aos-duration="500">
                <h1 class="about-heading">06</h1>
                <h3 class="text-light">Months Experience</h3> 
             </div>
-            <div class="col-md-4 col-sm-12 text-center mt-5 pt-5 pe-4 projects">
+            <div class="col-md-4 col-sm-12 text-center mt-5 pt-5 pe-4 projects" data-aos="fade-right" data-aos-duration="500">
                 <div class="row mb-4">
                     <div class="about-card text-center">
                         <h2 class="about-card-header">6+</h2>
@@ -121,7 +123,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12 text-center mt-5 pt-5 technologies">
+            <div class="col-md-4 col-sm-12 text-center mt-5 pt-5 technologies" data-aos="fade-left" data-aos-duration="500">
                 <div class="row mb-4">
                     <div class="about-card text-center">
                         <h2 class="about-card-header">10+</h2>
@@ -142,17 +144,19 @@
    <div class="row project-section pb-5" id="project">
     <div class="col-md-2"></div>
     <div class="col-md-8 pt-5">
-        <div class="row">
+        <div class="row" data-aos="fade-up" data-aos-duration="500">
                <div class="col-md-8">
-                    <h2 class="text-light project-header">PROJECT SPOTLIGHT</h2>
-                    <h6 class="text-light">Showcasing Premier Projects</h6>
+                  <div class="row">
+                      <h2 class="text-light project-header">PROJECT SPOTLIGHT</h2>
+                      <h6 class="text-light">Showcasing Premier Projects</h6>
+                  </div>
                </div>
             <div class="col-md-4">
-                <button type="button" class="btn text-light rounded-0 intro-btn"><a class="text-light view-all-btn" href="https://github.com/sanjaykrishnatk" target="_blank">VIEW ALL</a></button> 
+                <button type="button" data-aos="fade-up" data-aos-duration="500" class="btn text-light rounded-0 intro-btn"><a class="text-light view-all-btn" href="https://github.com/sanjaykrishnatk" target="_blank">VIEW ALL</a></button> 
             </div>        
         </div>
         <div class="row mt-5 project-images">
-            <div class="col-md-4 col-sm-12 d-flex justify-content-center">
+            <div class="col-md-4 col-sm-12 d-flex justify-content-center" data-aos="fade-right" data-aos-duration="500">
                 <div class="card project-card" style="width: 18rem;">
                     <img src="./media/img2.png" class="card-img-top p-3" alt="img1" width="100%">
                  <div class="project-desc">
@@ -161,7 +165,7 @@
                  </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12 d-flex justify-content-center">
+            <div class="col-md-4 col-sm-12 d-flex justify-content-center" data-aos="fade-down" data-aos-duration="500">
                 <div class="card project-card" style="width: 18rem;">
                     <img src="./media/img1.png" class="card-img-top p-3" alt="img1" width="100%">
                  <div class="project-desc">
@@ -170,7 +174,7 @@
                  </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12 d-flex justify-content-center">
+            <div class="col-md-4 col-sm-12 d-flex justify-content-center" data-aos="fade-left" data-aos-duration="500">
                 <div class="card project-card" style="width: 18rem;">
                     <img src="./media/img3.png" class="card-img-top p-3" alt="img1" width="100%">
                  <div class="project-desc">
@@ -186,13 +190,13 @@
    <div class="row contact-section pb-5" id="contact">
     <div class="col-md-2"></div>
     <div class="col-md-8 d-flex justify-content-center align-items-center mt-5 pt-2">
-        <div class="row contact-row">
+        <div class="row contact-row" data-aos="fade-up" data-aos-duration="500">
             <div class="col-md-8 p-4">
                 <h2 class="text-light contact-text-main">Ready to Collaborate on Your Next Project</h2>
                 <p class="text-light contact-text-sub">Get in touch to discuss further.</p>
             </div>
             <div class="col-md-4 d-flex justify-content-center align-items-center">
-                <button type="button" class="btn text-light rounded-0 intro-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">CONTACT</button>
+                <button type="button" data-aos="fade-up" data-aos-duration="500" class="btn text-light rounded-0 intro-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">CONTACT</button>
             </div>
         </div>
     </div>
@@ -237,6 +241,9 @@
       </div>
     </div>
   </div>
-  
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
