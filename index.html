@@ -1,251 +1,573 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
     <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <!-- fontawesome  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">   
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
     <!-- css -->
-     <link rel="stylesheet" href="./style.css"> 
-     <!-- animate on scroll -->
-     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-     <!-- favicon -->
-     <link rel="icon" href="./media/favicon.ico">
-</head>
-<body>
-   <div class="row mt-3"> 
-    <div class="col-md-2"></div>
-    <div class="col-md-8">
+    <link rel="stylesheet" href="./style.css" />
+    <!-- animate on scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- favicon -->
+    <link rel="icon" href="./media/favicon.ico" />
+  </head>
+  <body>
+    <div class="row mt-3">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
         <nav class="navbar navbar-dark navbar-expand-lg p-4">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img id="logo" src="./media/portfolio-logo.png" alt="LOGO" width="100px">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="color: white !important;">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active me-5 text-light navbar-txt" aria-current="page" href="#">HOME</a>
-                  </li>  
-                  <li class="nav-item">
-                    <a class="nav-link me-5 text-light navbar-txt" aria-current="page" href="#about">ABOUT</a>
-                  </li> 
-                  <li class="nav-item">
-                    <a class="nav-link me-5 text-light navbar-txt" aria-current="page" href="#project">PROJECT</a>
-                  </li> 
-                  <li class="nav-item">
-                    <a class="nav-link me-5 text-light navbar-txt" aria-current="page" href="#contact">CONTACT</a>
-                  </li> 
-                </ul>
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img
+                id="logo"
+                src="./media/portfolio-logo.png"
+                alt="LOGO"
+                width="100px"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              style="color: white !important"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active me-5 text-light navbar-txt"
+                    aria-current="page"
+                    href="#"
+                    >HOME</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link me-5 text-light navbar-txt"
+                    aria-current="page"
+                    href="#about"
+                    >ABOUT</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link me-5 text-light navbar-txt"
+                    aria-current="page"
+                    href="#project"
+                    >PROJECT</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link me-5 text-light navbar-txt"
+                    aria-current="page"
+                    href="#contact"
+                    >CONTACT</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <div class="row">
+          <div class="col-md-5 d-flex justify-content-center">
+            <img src="./media/portfolio-img.png" class="portfolio-img" alt="" />
+          </div>
+          <div class="col-md-7 portfolio-text-section">
+            <h5 class="portfolio-text">Hello I'm Sanjay</h5>
+            <h1 class="text-light portfolio-sub-text">Web Developer</h1>
+            <p class="text-light portfolio-intro">
+              Expert coding and design skills drive my dedication to crafting
+              immersive digital experiences as a web developer. Explore my
+              portfolio to witness the innovative projects I've developed.
+            </p>
+            <button type="button" class="btn text-light rounded-0 intro-btn">
+              <a
+                href="media/SANJAY KRISHNA TK CV.pdf"
+                download="SANJAY KRISHNA TK CV.pdf"
+                class="text-light view-all-btn"
+                >DOWNLOAD CV</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+    <div class="row about-section pb-5" id="about">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <div
+          class="row about-content d-flex justify-content-center align-items-center"
+        >
+          <div
+            class="col-md-4 col-sm-12 d-flex justify-content-center"
+            data-aos="fade-right"
+            data-aos-duration="500"
+          >
+            <div class="card grey-card" style="width: 18rem; height: 260px">
+              <div class="card-body ms-3 pe-3 pt-5 pb-5">
+                <i class="fa-solid fa-users fa-3x pb-3 about-logos"></i>
+                <h5 class="card-title pb-2">USER FIRST DEVELOPER</h5>
+                <p class="card-text pb-2 about-txt">
+                  Creating immersive, engaging user experiences.
+                </p>
               </div>
             </div>
-          </nav>
-    </div>
-    <div class="col-md-2"></div>
-   </div>
-   <div class="row">
-    <div class="col-md-2"></div>
-    <div class="col-md-8">
-        <div class="row">
-            <div class="col-md-5 d-flex justify-content-center">
-                <img src="./media/portfolio-img.png" class="portfolio-img" alt="">
+          </div>
+          <div
+            class="col-md-4 col-sm-12 d-flex justify-content-center"
+            data-aos="fade-down"
+            data-aos-duration="500"
+          >
+            <div class="card red-card" style="width: 18rem; height: 260px">
+              <div class="card-body ms-3 pe-3 pt-5 pb-5">
+                <i
+                  class="fa-solid fa-laptop fa-3x pb-3 about-logos text-light"
+                ></i>
+                <h5 class="card-title pb-2">TECH ENTHUSIAST</h5>
+                <p class="card-text pb-2 about-txt about-txt-2">
+                  Passionate about technology, crafting seamless solutions.
+                </p>
+              </div>
             </div>
-            <div class="col-md-7 portfolio-text-section">
-                <h5 class="portfolio-text">Hello I'm Sanjay</h5>
-                <h1 class="text-light portfolio-sub-text">Web Developer</h1>
-                <p class="text-light portfolio-intro">Expert coding and design skills drive my dedication to crafting immersive digital experiences as a web developer. Explore my portfolio to witness the innovative projects I've developed.</p>
-                <button type="button" class="btn text-light rounded-0 intro-btn"><a href="#about" class="text-light view-all-btn">ABOUT ME</a></button>
+          </div>
+          <div
+            class="col-md-4 col-sm-12 d-flex justify-content-center"
+            data-aos="fade-left"
+            data-aos-duration="500"
+          >
+            <div class="card grey-card" style="width: 18rem; height: 260px">
+              <div class="card-body ms-3 pe-3 pt-5 pb-5">
+                <i class="fa-solid fa-code fa-3x pb-3 about-logos"></i>
+                <h5 class="card-title pb-2">FULL STACK EXPERTISE</h5>
+                <p class="card-text pb-2 about-txt">
+                  Building comprehensive solutions with MEARN Stack expertise.
+                </p>
+              </div>
             </div>
-         
-        </div>
-    </div>
-    <div class="col-md-2"></div>
-   </div>
-   <div class="row about-section pb-5" id="about">
-    <div class="col-md-2"></div>
-    <div class="col-md-8">
-        <div class="row about-content d-flex justify-content-center align-items-center">
-            <div class="col-md-4 col-sm-12 d-flex justify-content-center" data-aos="fade-right" data-aos-duration="500">
-                <div class="card grey-card" style="width: 18rem;">
-                    <div class="card-body ms-3 pe-3 pt-5 pb-5">
-                        <i class="fa-solid fa-users fa-3x pb-3 about-logos"></i>
-                      <h5 class="card-title pb-2">USER FIRST DEVELOPER</h5>
-                      <p class="card-text pb-2 about-txt">Creating immersive, engaging user experiences.</p>
-                      <a href="#" class="card-link about-link">KNOW MORE<span><i class="fa-solid fa-right-long about-logos ps-2"></i></span></a>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-md-4 col-sm-12 d-flex justify-content-center" data-aos="fade-down" data-aos-duration="500">
-                <div class="card red-card" style="width: 18rem;">
-                    <div class="card-body ms-3 pe-3 pt-5 pb-5">
-                        <i class="fa-solid fa-laptop fa-3x pb-3 about-logos text-light"></i>
-                      <h5 class="card-title pb-2">TECH ENTHUSIAST</h5>
-                      <p class="card-text pb-2 about-txt about-txt-2">Passionate about technology, crafting seamless solutions.</p>
-                      <a href="#" class="card-link about-link text-light">KNOW MORE<span><i class="fa-solid fa-right-long about-logos ps-2 text-light"></i></span></a>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-md-4 col-sm-12 d-flex justify-content-center" data-aos="fade-left" data-aos-duration="500">
-                <div class="card grey-card" style="width: 18rem;">
-                    <div class="card-body ms-3 pe-3 pt-5 pb-5">
-                        <i class="fa-solid fa-code fa-3x pb-3 about-logos"></i>
-                      <h5 class="card-title pb-2">FULL STACK EXPERTISE</h5>
-                      <p class="card-text pb-2 about-txt">Mastering both ends for seamless web solutions.</p>
-                      <a href="#" class="card-link about-link">KNOW MORE<span><i class="fa-solid fa-right-long about-logos ps-2"></i></span></a>
-                    </div>
-                  </div>
-            </div>
+          </div>
         </div>
         <div class="row">
-            <div class="col-md-4 col-sm-12 text-center mt-5 pt-5" data-aos="zoom-out-up" data-aos-duration="500">
-               <h1 class="about-heading">06</h1>
-               <h3 class="text-light">Months Experience</h3> 
+          <div
+            class="col-md-4 col-sm-12 text-center mt-5 pt-5"
+            data-aos="zoom-out-up"
+            data-aos-duration="500"
+          >
+            <h1 class="about-heading">1+</h1>
+            <h3 class="text-light">Years Experience</h3>
+          </div>
+          <div
+            class="col-md-4 col-sm-12 text-center mt-5 pt-5 pe-4 projects"
+            data-aos="fade-right"
+            data-aos-duration="500"
+          >
+            <div class="row mb-4">
+              <div class="about-card text-center">
+                <h2 class="about-card-header">10+</h2>
+                <h6 class="text-light">Projects</h6>
+              </div>
             </div>
-            <div class="col-md-4 col-sm-12 text-center mt-5 pt-5 pe-4 projects" data-aos="fade-right" data-aos-duration="500">
-                <div class="row mb-4">
-                    <div class="about-card text-center">
-                        <h2 class="about-card-header">6+</h2>
-                        <h6 class="text-light">Projects</h6>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="about-card text-center">
-                        <h2 class="about-card-header">4+</h2>
-                        <h6 class="text-light">Courses</h6>
-                    </div>
-                </div>
+            <div class="row">
+              <div class="about-card text-center">
+                <h2 class="about-card-header">4+</h2>
+                <h6 class="text-light">Courses</h6>
+              </div>
             </div>
-            <div class="col-md-4 col-sm-12 text-center mt-5 pt-5 technologies" data-aos="fade-left" data-aos-duration="500">
-                <div class="row mb-4">
-                    <div class="about-card text-center">
-                        <h2 class="about-card-header">10+</h2>
-                        <h6 class="text-light">Technologies</h6>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="about-card text-center">
-                        <h2 class="about-card-header">3+</h2>
-                        <h6 class="text-light">Collaborations</h6>
-                    </div>
-                </div>
+          </div>
+          <div
+            class="col-md-4 col-sm-12 text-center mt-5 pt-5 technologies"
+            data-aos="fade-left"
+            data-aos-duration="500"
+          >
+            <div class="row mb-4">
+              <div class="about-card text-center">
+                <h2 class="about-card-header">10+</h2>
+                <h6 class="text-light">Technologies</h6>
+              </div>
             </div>
+            <div class="row">
+              <div class="about-card text-center">
+                <h2 class="about-card-header">3+</h2>
+                <h6 class="text-light">Collaborations</h6>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="col-md-2"></div>
     </div>
-    <div class="col-md-2"></div>
-   </div>
-   <div class="row project-section pb-5" id="project">
-    <div class="col-md-2"></div>
-    <div class="col-md-8 pt-5">
+    <div class="row project-section pb-5" id="project">
+      <div class="col-md-2"></div>
+      <div class="col-md-8 pt-5">
         <div class="row" data-aos="fade-up" data-aos-duration="500">
-               <div class="col-md-8">
-                  <div class="row">
-                      <h2 class="text-light project-header">PROJECT SPOTLIGHT</h2>
-                      <h6 class="text-light">Showcasing Premier Projects</h6>
-                  </div>
-               </div>
-            <div class="col-md-4">
-                <button type="button" data-aos="fade-up" data-aos-duration="500" class="btn text-light rounded-0 intro-btn"><a class="text-light view-all-btn" href="https://github.com/sanjaykrishnatk" target="_blank">VIEW ALL</a></button> 
-            </div>        
+          <div class="col-md-8">
+            <div class="row">
+              <h2 class="text-light project-header">PROJECT SPOTLIGHT</h2>
+              <h6 class="text-light">Showcasing Premier Projects</h6>
+            </div>
+          </div>
         </div>
         <div class="row mt-5 project-images">
-            <div class="col-md-4 col-sm-12 d-flex justify-content-center" data-aos="fade-right" data-aos-duration="500">
-                <div class="card project-card" style="width: 18rem;">
-                    <img src="./media/img2.png" class="card-img-top p-3" alt="img1" width="100%">
-                 <div class="project-desc">
-                        <h4 class="text-light project-text-main mt-2">Travel Website</h4>
-                        <a href="https://sanjaykrishnatk.github.io/travel/" target="_blank" class="card-link about-link">VIEW DEMO<span><i class="fa-solid fa-right-long about-logos ps-2"></i></span></a>
-                 </div>
-                </div>
+          <div
+            class="col-md-4 col-sm-12 d-flex justify-content-center"
+            data-aos="fade-left"
+            data-aos-duration="500"
+          >
+            <div class="card project-card" style="width: 18rem">
+              <img
+                src="./media/ows.png"
+                class="card-img-top p-3"
+                alt="img1"
+                width="100%"
+                height="175px"
+              />
+              <div class="project-desc">
+                <h4 class="text-light project-text-main mt-2">
+                  Online Wine Store with Real-Time Face Recognition for Age
+                  Verification - MERN, AWS Rekognition
+                </h4>
+                <a
+                  href="https://ows-black.vercel.app/"
+                  target="_blank"
+                  class="card-link about-link"
+                  >VIEW DEMO<span
+                    ><i
+                      class="fa-solid fa-right-long about-logos ps-2"
+                    ></i></span
+                ></a>
+              </div>
             </div>
-            <div class="col-md-4 col-sm-12 d-flex justify-content-center" data-aos="fade-down" data-aos-duration="500">
-                <div class="card project-card" style="width: 18rem;">
-                    <img src="./media/img1.png" class="card-img-top p-3" alt="img1" width="100%">
-                 <div class="project-desc">
-                        <h4 class="text-light project-text-main mt-2">Restuarant Website</h4>
-                        <a href="https://sanjaykrishnatk.github.io/restaurant/" target="_blank" class="card-link about-link">VIEW DEMO<span><i class="fa-solid fa-right-long about-logos ps-2"></i></span></a>
-                 </div>
-                </div>
+          </div>
+          <div
+            class="col-md-4 col-sm-12 d-flex justify-content-center"
+            data-aos="fade-right"
+            data-aos-duration="500"
+          >
+            <div class="card project-card" style="width: 18rem">
+              <img
+                src="./media/blood.png"
+                class="card-img-top p-3"
+                alt="img1"
+                width="100%"
+                height="175px"
+              />
+              <div class="project-desc">
+                <h4 class="text-light project-text-main mt-2">
+                  Blood Connect - React JS, JSON Server
+                </h4>
+                <a
+                  href="https://blood-connect-seven.vercel.app/"
+                  target="_blank"
+                  class="card-link about-link pb-4"
+                  style="position: fixed; bottom: 0px"
+                  >VIEW DEMO<span
+                    ><i
+                      class="fa-solid fa-right-long about-logos ps-2"
+                    ></i></span
+                ></a>
+              </div>
             </div>
-            <div class="col-md-4 col-sm-12 d-flex justify-content-center" data-aos="fade-left" data-aos-duration="500">
-                <div class="card project-card" style="width: 18rem;">
-                    <img src="./media/img3.png" class="card-img-top p-3" alt="img1" width="100%">
-                 <div class="project-desc">
-                        <h4 class="text-light project-text-main mt-2">Furniture Website</h4>
-                        <a href="https://sanjaykrishnatk.github.io/furniture/" target="_blank" class="card-link about-link">VIEW DEMO<span><i class="fa-solid fa-right-long about-logos ps-2"></i></span></a>
-                 </div>
-                </div>
+          </div>
+          <div
+            class="col-md-4 col-sm-12 d-flex justify-content-center"
+            data-aos="fade-down"
+            data-aos-duration="500"
+          >
+            <div class="card project-card" style="width: 18rem">
+              <img
+                src="./media/cred.png"
+                class="card-img-top p-3"
+                alt="img1"
+                width="100%"
+                height="175px"
+              />
+              <div class="project-desc">
+                <h4 class="text-light project-text-main mt-2">
+                  CRED Clone - React JS
+                </h4>
+                <a
+                  href="https://cred-clone-project.netlify.app/"
+                  target="_blank"
+                  class="card-link about-link pb-4"
+                  style="position: fixed; bottom: 0px"
+                  >VIEW DEMO<span
+                    ><i
+                      class="fa-solid fa-right-long about-logos ps-2"
+                    ></i></span
+                ></a>
+              </div>
             </div>
+          </div>
+          <div
+            class="col-md-4 col-sm-12 d-flex justify-content-center mt-md-3"
+            data-aos="fade-left"
+            data-aos-duration="500"
+          >
+            <div class="card project-card" style="width: 18rem">
+              <img
+                src="./media/bmi.png"
+                class="card-img-top p-3"
+                alt="img1"
+                width="100%"
+                height="175px"
+              />
+              <div class="project-desc">
+                <h4 class="text-light project-text-main mt-2">
+                  BMI Calculator - React JS
+                </h4>
+                <a
+                  href="https://bmi-calculator-ten-smoky.vercel.app/"
+                  target="_blank"
+                  class="card-link about-link"
+                  >VIEW DEMO<span
+                    ><i
+                      class="fa-solid fa-right-long about-logos ps-2"
+                    ></i></span
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-4 col-sm-12 d-flex justify-content-center mt-md-3"
+            data-aos="fade-right"
+            data-aos-duration="500"
+          >
+            <div class="card project-card" style="width: 18rem">
+              <img
+                src="./media/img2.png"
+                class="card-img-top p-3"
+                alt="img1"
+                width="100%"
+              />
+              <div class="project-desc">
+                <h4 class="text-light project-text-main mt-2">
+                  Travel Website
+                </h4>
+                <a
+                  href="https://sanjaykrishnatk.github.io/travel/"
+                  target="_blank"
+                  class="card-link about-link"
+                  >VIEW DEMO<span
+                    ><i
+                      class="fa-solid fa-right-long about-logos ps-2"
+                    ></i></span
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-md-4 col-sm-12 d-flex justify-content-center mt-md-3"
+            data-aos="fade-down"
+            data-aos-duration="500"
+          >
+            <div class="card project-card" style="width: 18rem">
+              <img
+                src="./media/img1.png"
+                class="card-img-top p-3"
+                alt="img1"
+                width="100%"
+              />
+              <div class="project-desc">
+                <h4 class="text-light project-text-main mt-2">
+                  Restuarant Website
+                </h4>
+                <a
+                  href="https://sanjaykrishnatk.github.io/restaurant/"
+                  target="_blank"
+                  class="card-link about-link"
+                  >VIEW DEMO<span
+                    ><i
+                      class="fa-solid fa-right-long about-logos ps-2"
+                    ></i></span
+                ></a>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="col-md-2"></div>
     </div>
-    <div class="col-md-2"></div>
-   </div>
-   <div class="row contact-section pb-5" id="contact">
-    <div class="col-md-2"></div>
-    <div class="col-md-8 d-flex justify-content-center align-items-center mt-5 pt-2">
+    <div class="row contact-section pb-5" id="contact">
+      <div class="col-md-2"></div>
+      <div
+        class="col-md-8 d-flex justify-content-center align-items-center mt-5 pt-2"
+      >
         <div class="row contact-row" data-aos="fade-up" data-aos-duration="500">
-            <div class="col-md-8 p-4">
-                <h2 class="text-light contact-text-main">Ready to Collaborate on Your Next Project</h2>
-                <p class="text-light contact-text-sub">Get in touch to discuss further.</p>
-            </div>
-            <div class="col-md-4 d-flex justify-content-center align-items-center">
-                <button type="button" data-aos="fade-up" data-aos-duration="500" class="btn text-light rounded-0 intro-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">CONTACT</button>
-            </div>
+          <div class="col-md-8 p-4">
+            <h2 class="text-light contact-text-main">
+              Ready to Collaborate on Your Next Project
+            </h2>
+            <p class="text-light contact-text-sub">
+              Get in touch to discuss further.
+            </p>
+          </div>
+          <div
+            class="col-md-4 d-flex justify-content-center align-items-center"
+          >
+            <button
+              type="button"
+              data-aos="fade-up"
+              data-aos-duration="500"
+              class="btn text-light rounded-0 intro-btn"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              CONTACT
+            </button>
+          </div>
         </div>
+      </div>
+      <div class="col-md-2"></div>
     </div>
-    <div class="col-md-2"></div>
-   </div>
-   <div class="row footer-section d-flex justify-content-center align-items-center pt-3">
-    <ul class="footer-links-list d-flex justify-content-center">
-        <li class="footer-link-item"><a href="https://github.com/sanjaykrishnatk" target="_blank"><i class="fab fa-github fa-2x footer-icons"></i></a></li>
-        <li class="footer-link-item"><a href="https://www.linkedin.com/in/sktk/" target="_blank"><i class="fab fa-linkedin fa-2x footer-icons"></i></a></li>
-        <li class="footer-link-item"><a href="https://www.instagram.com/sanjay.fs?igsh=Z2hmbG8zZzA3Mnht" target="_blank"><i class="fab fa-instagram fa-2x footer-icons"></i> </a></li>
-    </ul>
-</div>
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Get in touch</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
+    <div
+      class="row footer-section d-flex justify-content-center align-items-center pt-3"
+    >
+      <ul class="footer-links-list d-flex justify-content-center">
+        <li class="footer-link-item">
+          <a href="https://github.com/sanjaykrishnatk" target="_blank"
+            ><i class="fab fa-github fa-2x footer-icons"></i
+          ></a>
+        </li>
+        <li class="footer-link-item">
+          <a href="https://www.linkedin.com/in/sktk/" target="_blank"
+            ><i class="fab fa-linkedin fa-2x footer-icons"></i
+          ></a>
+        </li>
+        <li class="footer-link-item">
+          <a
+            href="https://www.instagram.com/sanjay.fs?igsh=Z2hmbG8zZzA3Mnht"
+            target="_blank"
+            ><i class="fab fa-instagram fa-2x footer-icons"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              Get in touch
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
             <form>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Mobile Number</label>
-                  <input type="text" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Stay updated! Subscribe for my latest work.</label>
-                </div>
-              </form>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-danger">Submit</button>
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" />
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label">Mobile Number</label>
+                <input type="text" class="form-control" id="phone" />
+              </div>
+              <div class="mb-3">
+                <label for="query" class="form-label">Message</label>
+                <textarea class="form-control" id="query"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button
+              type="button"
+              onclick="sendToWhatsApp()"
+              class="btn btn-danger"
+            >
+              Submit
+            </button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-</body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      function sendToWhatsApp() {
+        var name = encodeURIComponent(document.getElementById("name").value);
+        var email = encodeURIComponent(document.getElementById("email").value);
+        var phone = encodeURIComponent(document.getElementById("phone").value);
+        var query = encodeURIComponent(document.getElementById("query").value);
+
+        var message =
+          "Name: " +
+          name +
+          "%0APhone: " +
+          phone +
+          "%0AEmail: " +
+          email +
+          "%0AQuery: " +
+          query;
+
+        var whatsappNumber = "+917994465581";
+
+        var whatsappUrl =
+          "https://wa.me/" + whatsappNumber + "?text=" + message;
+
+        window.open(whatsappUrl, "_blank");
+      }
+    </script>
+  </body>
 </html>
