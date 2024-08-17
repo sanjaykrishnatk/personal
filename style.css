@@ -246,3 +246,9 @@ body {
 html {
   scroll-behavior: smooth;
 }
+@media (min-width: 768px) {
+  .fixedContent {
+    position: fixed;
+    bottom: 0px;
+  }
+}
